@@ -1,0 +1,7 @@
+Title : Downwards pointing Arrow
+Creator : Nathan Howard
+
+Modifications : 
+Flipped Vertically - By Nathan Howard
+
+See COPYING in root directory for license

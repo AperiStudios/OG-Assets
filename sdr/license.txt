@@ -1,0 +1,4 @@
+Title : Collection of Shaders
+Creator : Nathan Howard
+
+See COPYING in root directory for license

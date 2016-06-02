@@ -1,0 +1,17 @@
+<container colour="#07ff" activecolour="#ffff">
+  <vert posxanchor="center" posyanchor="top" maximumwidth='128'>
+    <button text="Play Now" id="startbutton"  maximumheight='64' texture='tex/button.png'/>
+    <button text="Join Friend" id="joinbutton" maximumheight='64' texture='tex/button.png'/>
+    <button text="Terrain Editor" id="terrainbutton"  maximumheight='64' texture='tex/button.png'/>
+    <button text="Model Viewer" id="modelbutton"  maximumheight='64' texture='tex/button.png'/>
+    <button text="IK Tester" id="ikbutton" maximumheight='64' texture='tex/button.png' />
+    <button text="Settings" id="settingbutton"  maximumheight='64' texture='tex/button.png'/>
+    <button text="Mod Explorer" id="explorerbutton" maximumheight='64' texture='tex/button.png' />
+    <button text="Exit" id="exitbutton"  maximumheight='64' texture='tex/button.png' colour='#f00f'/>
+    <button text="Crash" id="crashbutton" maximumheight="64" texture="tex/button.png" colour="#f00f"/>
+  </vert>
+  <hori posxanchor="right" posyanchor="bottom" maximumwidth='200' maximumheight='20'>
+    <image minimumwidth="16" maxmimumwidth="16" minimumheight="16" maximumheight="16" id="loginstatusimage" />
+    <textarea text="Offline Mode" id="loginstatustext" />
+  </hori>
+</container>

@@ -1,0 +1,5 @@
+<container colour="#07ff" activecolour="#ffff">
+  <sceneview id="gameview" />
+  <button id="quit" text="Quit" maximumheight='64' texture='tex/button.png' />
+  <image texture='tex/crosshair.png' posxanchor='center' posyanchor='center' maximumheight='32' maximumwidth='32' />
+</container>

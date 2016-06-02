@@ -1,0 +1,4 @@
+Title : An experiment in hiding the word "Poo" in games
+Creator : Nathan Howard
+
+See COPYING in root directory for license

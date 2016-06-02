@@ -1,0 +1,8 @@
+<container colour="#07ff" activecolour="#ffff">
+  <vert posxanchor="left" posyanchor="top" maximumwidth='400' id="container">
+  </vert>
+  <vert posxanchor="right" posyanchor="bottom" maximumwidth='200'>
+    <button text="Refresh Now" id="refreshbutton" />
+    <button text="Main Menu" id="exitbutton" />
+  </vert>
+</container>

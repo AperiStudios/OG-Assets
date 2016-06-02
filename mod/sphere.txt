@@ -1,0 +1,4 @@
+Title : Uniformly Smooth Three Dimensional object
+Creator : Nathan Howard
+
+See COPYING in root directory for license

@@ -1,0 +1,81 @@
+<container colour="#07ff" activecolour="#ffff">
+  <sceneview id="editview" />
+  <vert posxanchor="left" posyanchor="top" maximumwidth='150' maximumheight='40'>
+    <stringinput id="chooser" valuelist="Edit Navigation Mesh,Edit Floor,Edit Liquid,Add Wall,Edit Wall,Add Object,Edit Objects" />
+  </vert>
+  <vert id="liquidoptions" posxanchor="right" posyanchor="top" maximumwidth="200">
+    <numberinput id="liquidnumber" maximumheight="30" />
+    <image id="imageliquid"/>
+    <checkbox text="Set Colour" id="setliquidcolour" maximumheight="30" />
+    <checkbox text="Set Texture" id="setliquidtexture" maximumheight="30" />
+    <numberinput id="numberliquidtex" maximumheight="30" />
+    <checkbox text="Set Height" id="setliquidheight" maximumheight="30" />
+    <floatinput id="numberliquidheight" maximumheight="30" />
+    <checkbox text="Set Flow" id="setflow" maximumheight="30" />
+    <floatinput id="numberliquidflowx" maximumheight="30" />
+    <floatinput id="numberliquidflowy" maximumheight="30" />
+  </vert>
+  <vert id="flooroptions" posxanchor="right" posyanchor="top" maximumwidth='200'>
+    <numberinput id="floornumber" maximumheight="30" />
+    <image id="imagetex"/>
+    <checkbox text="Set Colour" id="setcolour"  maximumheight='30'/>
+    <checkbox text="Set Texture" id="settexture" maximumheight='30'/>
+    <numberinput id="numbertex" maximumheight="30" />
+    <checkbox text="Set Height" id="setheight" maximumheight='30' />
+    <floatinput id="numberheight" maximumheight="30" />
+  </vert>
+  <vert id="walloptions" posxanchor="right" posyanchor="top" maximumwidth='200'>
+    <textarea text='Position'  maximumheight="30"/>
+    <vector3 id="wallpos" maximumheight="30" />
+    <textarea text='Angle' maximumheight="30" />
+    <floatinput id="wallangle" maximumheight="30" />
+    <textinput id="wallmaterials" maximumheight="30" />
+  </vert>
+  <vert id="objectoptions" posxanchor="right" posyanchro="top" maximumwidth="200">
+    <button id="objectlook" text="Zoom to" maximumheight="30" />
+    <textarea text='Position' maximumheight="30" />
+    <vector3 id="objectpos" maximumheight="30" />
+    <textarea text="Angle" maximumheight="30" />
+    <vector3 id="objectangle" maximumheight="30" />
+    <include file="gui/material.xml" />
+    <vert id="particleoptions">
+      <textarea text="Colour range" maximumheight="30" />
+      <vector3 id="colmin" maximumheight="30" />
+      <vector3 id="colmax" maximumheight="30" />
+      <textarea text="Spawn offset range" maximumheight="30" />
+      <vector3 id="minpos" maximumheight="30" />
+      <vector3 id="maxpos" maximumheight="30" />
+      <textarea text="Direction range" maximumheight="30" />
+      <vector3 id="mindir" maximumheight="30" />
+      <vector3 id="maxdir" maximumheight="30" />
+      <textarea text="Gravity direction" maximumheight="30" />
+      <vector3 id="gravity" maximumheight="30" />
+      <textarea text="Respawn rate" maximumheight="30" />
+      <floatinput id="respawnrate" maximumheight="30" />
+      <textarea text="Particle Count" maximumheight="30" />
+      <numberinput id="count" maximumheight="30" />
+    </vert>
+    <sceneview id="objectview"/>
+  </vert>
+  <vert id="objectadd" posxanchor="right" posyanchor="top" maximumwidth="200">
+    <checkgroup maximumheight="90" maximumwidth="150">
+      <checkbox id="objectstatic" text="Static" maximumheight="30" />
+      <checkbox id="objectanimated" text="Animated" maximumheight="30" />
+      <checkbox id="objectparticle" text="Particle" maximumheight="30" />
+    </checkgroup>
+    <textinput id="objectaddmodel" />
+    <textinput id="objectaddmaterials" />
+  </vert>
+  <vert id="polygonoptions" posxanchor="right" posyanchor="top" maximumwidth="200">
+    <checkgroup maximumheight="90" maximumwidth="150">
+      <checkbox id="polygonpoints" text="Add Points" maximumheight="30" />
+      <checkbox id="polygonpoly" text="Add Polygon" maximumheight="30" />
+      <checkbox id="polygontest" text="Test Path" maximumheight="30" />
+    </checkgroup>
+  </vert>
+  <hori posxanchor="right" posyanchor="bottom" maximumwidth="300" maximumheight="32">
+    <button text="Load World" id="load" />
+    <button text="Save World" id="save" />
+    <button text="Menu" id="menu" />
+  </hori>
+</container>

@@ -1,0 +1,11 @@
+<container>
+  <sceneview id="ikview" />
+  <vert id='options' posxanchor="right" posyanchor="top" maximumwidth='200'>
+    <checkbox text="Toggle Skin" id='skin' maximumheight='64' />
+    <checkbox text="Toggle Skele" id='skele' maximumheight='64' />
+    <include file="gui/material.xml" />
+  </vert>
+  <hori posxanchor="left" posyanchor="bottom" maximumwidth='128' maximumheight='64'>
+    <button text='Main Menu' id='main' maximumheight='64' />
+  </hori>
+</container>

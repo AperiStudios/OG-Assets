@@ -1,0 +1,4 @@
+Title : NormalMap for Less Coarse Pattern
+Creator : Nathan Howard
+
+See COPYING in root directory for license

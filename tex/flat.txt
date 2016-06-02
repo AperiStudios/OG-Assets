@@ -1,0 +1,4 @@
+Title : Normal map, flat
+Creator : Nathan Howard
+
+See COPYING in root directory for license

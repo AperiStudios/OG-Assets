@@ -1,0 +1,13 @@
+<container colour="#07ff" activecolour="#ffff" disabledcolour="#777f">
+  <sceneview id="modelview" />
+  <vert posxanchor="left" posyanchor="top" maximumwidth="150" maximumheight="32">
+    <stringinput id="chooser" valuelist="Choose Parts,Choose Animations" />
+  </vert>
+  <vert id="matcont" posxanchor="right" posyanchor="top" maximumwidth="150">
+    <include file="gui/material.xml" />
+  </vert>
+  <vert id="animcont" posxanchor="right" posyanchor="top" maximumwidth="150" />
+  <hori posxanchor="left" posyanchor="bottom" maximumwidth="30" maximumheight="32">
+    <button text="Menu" id="quit" />
+  </hori>
+</container>

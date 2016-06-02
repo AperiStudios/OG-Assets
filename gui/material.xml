@@ -1,0 +1,21 @@
+<container>
+    <hori maximumheight="30">
+      <button text="Static" id="objectstatic" />
+      <button text="Anim" id="objectanim" />
+    </hori>
+    <hori maximumheight="30">
+      <button text="Particle" id="objectparticle" />
+      <button text="TBD" id="objecttbd" />
+    </hori>
+    <textarea text="Model File" maximumheight="30" />
+    <button id="objectmodelfile" maximumheight="30" />
+    <textarea text="Materials" maximumheight="30" />
+    <numberinput id="objectmaterialnumber" maximumheight="30" />
+    <button id="objectmaterialcol" maximumheight="30" />
+    <textarea text="Main Texture" maximumheight="30" />
+    <textinput id="objectmaterialtex" maximumheight="30" />
+    <textarea text="Data Texture" maximumheight="30" />
+    <textinput id="objectmaterialtexdata" maximumheight="30" />
+    <textarea text="Models, comma seperated" maximumheight="30" />
+    <button id="objectmaterialmodel" maximumheight="30" />
+</container>

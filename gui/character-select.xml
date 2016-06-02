@@ -1,0 +1,37 @@
+<container colour="#07ff" activecolour="#ffff" textcolour="#ffff">
+    <hori posxanchor="center" posyanchor="top" maximumheight="100" maximumwidth="1000">
+        <vert id="profile1" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile2" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile3" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile4" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile5" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+
+    </hori>
+    <hori posxanchor="center" posyanchor="bottom" maximumheight="100" maximumwidth="1000">
+        <vert id="profile6" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile7" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile8" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile9" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+        <vert id="profile10" maximumheight="100" maximumwidth="100">
+            <include file="gui/char.xml" />
+        </vert>
+    </hori>
+</container>

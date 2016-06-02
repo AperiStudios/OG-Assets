@@ -1,0 +1,4 @@
+Title : The worst conical tree in the history of computer games, Bar one
+Creator : Nathan Howard
+
+See COPYING in root directory for license

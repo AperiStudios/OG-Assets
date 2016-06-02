@@ -1,0 +1,4 @@
+Name : Craig Skin
+Creator : Jack Fiddes
+
+See COPYING in root directory for license

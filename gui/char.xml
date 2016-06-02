@@ -1,0 +1,6 @@
+<container>
+    <image id="charPicture" />
+    <textarea id="charDetails" />
+    <image id="charClass" />
+    <button id="charChoose" text="Choose" />
+</container>

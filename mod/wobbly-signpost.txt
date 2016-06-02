@@ -1,0 +1,4 @@
+Title : Wobbly Signpost for gamers who need acid to follow the lore of a game
+Creator : Nathan Howard
+
+See COPYING in root directory for license

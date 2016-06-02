@@ -1,0 +1,4 @@
+Title : Character Selection Menu
+Creator : Nathan Howard
+
+See COPYING in root directory for license

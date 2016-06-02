@@ -1,0 +1,25 @@
+<container colour="#07ff" activecolour="#ffff">
+  <vert posxanchor="left" posyanchor="top" maximumwidth='150'>
+    <hori>
+      <inputicon input='menu_1'/>
+      <textarea text="Add binding" />
+    </hori>
+    <hori>
+      <inputicon input='menu_2'/>
+      <textarea text="Delete bindings" />
+    </hori>
+    <hori>
+      <inputicon input='menu_next' />
+      <textarea text="Save" />
+    </hori>
+    <hori>
+      <inputicon input='menu_cancel' />
+      <textarea text="Exit" />
+    </hori>
+    <textarea text="We strongly advise you don't unbind menu_1" />
+  </vert>
+  <scrollbox id="scroll" posxanchor="center" posyanchor="top" maximumwidth='400'>
+    <vert id="list">
+    </vert>
+  </scrollbox>
+</container>

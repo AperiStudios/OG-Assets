@@ -1,0 +1,4 @@
+Title : Circle Button
+Creator : Nathan Howard
+
+See COPYING in root directory for license

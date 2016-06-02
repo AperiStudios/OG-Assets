@@ -1,0 +1,13 @@
+<container colour="#07ff" activecolour="#ffff">
+  <vert posxanchor="center" posyanchor="top" maximumwidth='250'>
+    <checkbox text="Let others join my session" id="otherjoinsession"  maximumheight='30'/>
+    <checkbox text="Show debug buttons in menu" id="debugmenu" maximumheight='30'/>
+
+    <checkbox text="Cap FPS" id="capfps" maximumheight='30' />
+    <numberinput id="capfpsnum" />
+    <button text="Auto adjust graphics quality" id="auto" maximumheight='30' />
+  </vert>
+  <hori posxanchor="right" posyanchor="bottom" maximumwidth="100" maximumheight="30">
+    <button text="Main Menu" id="menu" maximumheight='30' />
+  </hori>
+</container>

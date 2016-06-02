@@ -1,0 +1,8 @@
+Title : Craig
+Creator : Jack Fiddes
+
+Modifications : 
+Replaced bone structure completely - Nathan Howard
+Added Animations - Nathan Howard
+
+See COPYING in root directory for license

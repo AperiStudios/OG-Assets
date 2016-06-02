@@ -1,0 +1,4 @@
+Title : Sure Why not. A Makefile under CC:SA 4.0
+Creator : Nathan Howard
+
+See COPYING in root directory for license

@@ -1,0 +1,10 @@
+<container colour="#07ff" activecolour="#ffff">
+  <hori>
+    <vert posxanchor="left" maximumwidth="100">
+      <stringinput id="chooser" valuelist="Show Materials,Show Items,Show Classes,Show PC Classes,Show Item Parts" maximumheight="24" />
+      <scrollable id="choices" />
+    </vert>
+    <scrollable id="contents" />
+  </hori>
+  <button text="Quit" id="quit" posxanchor="right" posyanchor="bottom" maximumwidth="50" maximumheight="32" />
+</container>

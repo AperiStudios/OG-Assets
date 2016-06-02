@@ -1,0 +1,4 @@
+Title : Button Pad
+Creator : Nathan Howard
+
+See COPYING in root directory for license

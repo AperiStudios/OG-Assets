@@ -1,0 +1,4 @@
+<container colour="#07ff" activecolour="#ffff" textcolour="#ffff">
+  <sceneview id="loadingview" />
+  <textarea id="message" maximumheight="40" maximumwidth="300" posyanchor="bottom" posxanchor="center" />
+</container>
